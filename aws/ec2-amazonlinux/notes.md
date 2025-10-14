@@ -151,6 +151,8 @@ if __name__ == '__main__':
 
 ## Step 6: Open Port 5000 in Security Group
 
+This is done to allow inbound network traffic to our flask application, and enable external users to access it through this port.
+
 <img src="images/13.png" width="550" height="380"/> <br><br><br>
 
 <img src="images/14.png" width="550" height="380"/> <br><br><br>
@@ -173,15 +175,15 @@ python3 app.py
 
 ## Step 8: Access the App
 
-Copy your instance’s Public DNS.
+Copy your instance’s Public DNS. 
 
 <img src="images/18.png" width="550" height="380"/>
 
 ---
 
-## Step 9: Open it in your browser:
+## Step 9: Open it in your browser by running the URL below:
 
-http://<your-public-dns>:5000
+http://<replace-with-your-public-dns>:5000
 
 <img src="images/19.png" width="550" height="380"/>
 
