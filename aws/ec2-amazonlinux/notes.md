@@ -11,19 +11,19 @@ Creating an Amazon Linux EC2 instance, connecting to it using SSH, and creating 
 
 2. Click "Launch Instance" and configure as follows:
 
-   <img src="images/2.png" width="550" height="380"/> <br>
+   <img src="images/2.png" width="550" height="380"/> <br><br><br>
 
-   <img src="images/3.png" width="550" height="380"/> <br>
+   <img src="images/3.png" width="550" height="380"/> <br><br><br>
 
-   <img src="images/4.png" width="550" height="380"/> <br>
+   <img src="images/4.png" width="550" height="380"/> <br><br><br>
 
-   <img src="images/5.png" width="550" height="380"/> <br>
+   <img src="images/5.png" width="550" height="380"/> <br><br><br>
 
-   <img src="images/6.png" width="550" height="380"/> <br>
+   <img src="images/6.png" width="550" height="380"/> <br><br><br>
 
-   <img src="images/7.png" width="550" height="380"/> <br>
+   <img src="images/7.png" width="550" height="380"/> <br><br><br>
 
-   <img src="images/8.png" width="550" height="380"/> <br>
+   <img src="images/8.png" width="550" height="380"/> <br><br><br>
 
    <img src="images/9.png" width="550" height="380"/> 
 
@@ -51,9 +51,9 @@ chmod 400 ~/.ssh/your-key.pem
 
 Use SSH to connect to your EC2 instance.
 
-   <img src="images/10.png" width="550" height="380"/><br>
+   <img src="images/10.png" width="550" height="380"/><br><br><br>
 
-   <img src="images/11.png" width="550" height="380"/> <br>
+   <img src="images/11.png" width="550" height="380"/> <br><br><br>
 
    <img src="images/12.png" width="550" height="380"/>
 
@@ -151,13 +151,13 @@ if __name__ == '__main__':
 
 ## Step 6: Open Port 5000 in Security Group
 
-     <img src="images/13.png" width="550" height="380"/> <br>
+<img src="images/13.png" width="550" height="380"/> <br><br><br>
 
-     <img src="images/14.png" width="550" height="380"/> <br>
+<img src="images/14.png" width="550" height="380"/> <br><br><br>
 
-     <img src="images/15.png" width="550" height="380"/> <br>
+<img src="images/15.png" width="550" height="380"/> <br><br><br>
 
-     <img src="images/16.png" width="550" height="380"/>
+<img src="images/16.png" width="550" height="380"/>
 
 ---
 
@@ -167,7 +167,7 @@ if __name__ == '__main__':
 python3 app.py
 ```
 
-    <img src="images/17.png" width="550" height="380"/>
+<img src="images/17.png" width="550" height="380"/>
 
 ---
 
@@ -175,7 +175,7 @@ python3 app.py
 
 Copy your instance’s Public DNS.
 
-    <img src="images/18.png" width="550" height="380"/>
+<img src="images/18.png" width="550" height="380"/>
 
 ---
 
@@ -183,5 +183,5 @@ Copy your instance’s Public DNS.
 
 http://<your-public-dns>:5000
 
-    <img src="images/19.png" width="550" height="380"/>
+<img src="images/19.png" width="550" height="380"/>
 
