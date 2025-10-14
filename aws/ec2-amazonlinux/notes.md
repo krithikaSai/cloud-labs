@@ -6,25 +6,26 @@ Creating an Amazon Linux EC2 instance, connecting to it using SSH, and creating 
 
 1. Log in to the AWS Management Console and open the EC2 Dashboard.
   
-   ![EC2 Dashboard](images/1.png)
+   <img src="aws/ec2-linux-flask/images/1.png" width="450" height="280"/>
+
 
 2. Click "Launch Instance" and configure as follows:
 
-   ![Instance Config 1](images/2.png)
+   <img src="aws/ec2-linux-flask/images/2.png" width="450" height="280"/>
 
-   ![Instance Config 2](images/3.png)
+   <img src="aws/ec2-linux-flask/images/3.png" width="450" height="280"/>
 
-   ![Instance Config 3](images/4.png)
+   <img src="aws/ec2-linux-flask/images/4.png" width="450" height="280"/>
 
-   ![Instance Config 4](images/5.png)
+   <img src="aws/ec2-linux-flask/images/5.png" width="450" height="280"/>
 
-   ![Instance Config 5](images/6.png)
+   <img src="aws/ec2-linux-flask/images/6.png" width="450" height="280"/>
 
-   ![Instance Config 6](images/7.png)
+   <img src="aws/ec2-linux-flask/images/7.png" width="450" height="280"/>
 
-   ![Instance Config 7](images/8.png)
+   <img src="aws/ec2-linux-flask/images/8.png" width="450" height="280"/>
 
-   ![Instance Config 8](images/9.png)
+   <img src="aws/ec2-linux-flask/images/9.png" width="450" height="280"/>
 
 ---
 
@@ -50,11 +51,11 @@ chmod 400 ~/.ssh/your-key.pem
 
 Use SSH to connect to your EC2 instance.
 
-   ![Instance Connection](images/10.png)
+   <img src="aws/ec2-linux-flask/images/10.png" width="450" height="280"/>
 
-   ![Instance Connection](images/11.png)
+   <img src="aws/ec2-linux-flask/images/11.png" width="450" height="280"/>
 
-   ![Instance Connection](images/12.png)
+   <img src="aws/ec2-linux-flask/images/12.png" width="450" height="280"/>
 
 ---
 
@@ -150,13 +151,13 @@ if __name__ == '__main__':
 
 ## Step 6: Open Port 5000 in Security Group
 
-     ![Security Group](images/13.png)
+     <img src="aws/ec2-linux-flask/images/13.png" width="450" height="280"/>
 
-     ![Security Group](images/14.png)
+     <img src="aws/ec2-linux-flask/images/14.png" width="450" height="280"/>
 
-     ![Security Group](images/15.png)
+     <img src="aws/ec2-linux-flask/images/15.png" width="450" height="280"/>
 
-     ![Security Group](images/16.png)
+     <img src="aws/ec2-linux-flask/images/16.png" width="450" height="280"/>
 
 ---
 
@@ -166,7 +167,7 @@ if __name__ == '__main__':
 python3 app.py
 ```
 
-    ![Flask application running](images/17.png)
+    <img src="aws/ec2-linux-flask/images/17.png" width="450" height="280"/>
 
 ---
 
@@ -174,7 +175,7 @@ python3 app.py
 
 Copy your instance’s Public DNS.
 
-    ![Public RNS](images/18.png)
+    <img src="aws/ec2-linux-flask/images/18.png" width="450" height="280"/>
 
 ---
 
@@ -182,5 +183,5 @@ Copy your instance’s Public DNS.
 
 http://<your-public-dns>:5000
 
-    ![App on Browser](images/19.png)
+    <img src="aws/ec2-linux-flask/images/19.png" width="450" height="280"/>
 
