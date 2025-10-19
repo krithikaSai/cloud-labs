@@ -95,8 +95,8 @@ Creating an S3 bucket, uploading objects into it, and configuring it for static 
 
 ## Step 4: Making the files public
 
-     <img src="images/14.png" width="550"/><br><br><br>
-     <img src="images/15.png" width="550" height="380"/>
+<img src="images/14.png" width="550"/><br><br><br>
+<img src="images/15.png" width="550" height="380"/>
 
 Paste the below policy (and replace with your bucket name on the last line)
 
