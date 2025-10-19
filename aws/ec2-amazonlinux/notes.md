@@ -183,7 +183,7 @@ Copy your instance’s Public DNS.
 
 ## Step 9: Open it in your browser by running the URL below:
 
-http://<replace-with-your-public-dns>:5000
+http://**replace-with-your-public-dns**:5000
 
 <img src="images/19.png" width="550" height="380"/>
 

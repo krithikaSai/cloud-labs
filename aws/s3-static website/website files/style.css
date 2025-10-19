@@ -1,0 +1,28 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #A627F5;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+img {
+  margin-top: 2rem;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
