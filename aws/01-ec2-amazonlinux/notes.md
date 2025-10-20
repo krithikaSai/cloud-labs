@@ -33,6 +33,8 @@ Creating an Amazon Linux EC2 instance, connecting to it using SSH, and creating 
 
 AWS requires your private key file (`.pem`) to have restricted permissions before connecting to your instance.  
 
+Run the commands given below in your terminal (after navigating to the folder in which your .pem file is located)
+
 **Windows (PowerShell):**
 ```powershell
 icacls "C:\Users\<YourName>\.ssh\your-key.pem" /inheritance:r
@@ -183,7 +185,9 @@ Copy your instance’s Public DNS.
 
 ## Step 9: Open it in your browser by running the URL below:
 
-http://**replace-with-your-public-dns**:5000
+```bash
+http://<replace-with-your-public-dns>:5000
+```
 
 <img src="images/19.png" width="550" height="380"/>
 
