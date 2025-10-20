@@ -88,7 +88,7 @@ pip install flask flask-login pymysql werkzeug
 
 <img src="images/8.png" width="550" height="380"/>
 
-2. Run the below command replacing with your own endpoint.
+2. Run the below command (inside your EC2 instance terminal) replacing with your own endpoint.
 
 ```bash
 mysql <endpoint-url> -u admin -p
