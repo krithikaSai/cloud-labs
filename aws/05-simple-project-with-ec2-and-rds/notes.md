@@ -16,7 +16,7 @@ Creating a notes app in which users can register and log in, and use it to creat
 
 3. Edit the inbound rules in the security group to allow users to access the application we will create.
 
-   <img src="images/3.png" height="600"/>
+   <img src="images/3.png" height="500"/>
 
 ---
 
