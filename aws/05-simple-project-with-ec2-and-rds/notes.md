@@ -538,7 +538,7 @@ http://<your-public-ip-address>:5000/
 
 3. Give the username and password that has been inserted in the users database. 
 
-<img src="images/16.png" height="380"/>
+<img src="images/16.png" height="200"/>
 
 4. Try out different CRUD operations, like adding, deleting, or updating tasks. 
 
