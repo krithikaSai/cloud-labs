@@ -1,7 +1,7 @@
-# AWS Mini Project: Creating a simple flask notes application, using Ubuntu EC2 instance and RDS backend
+# AWS Mini Project: Creating a simple Flask Notes Application, using Ubuntu EC2 instance and RDS backend
 
 ### Objective
-Creating a notes app in which users can register and log in, and create, read, update and delete notes. 
+Creating a notes app in which users can register and log in, and use it to create, read, update and delete notes. 
 
 ## Step 1: Launch an EC2 Ubuntu Instance
 
@@ -16,7 +16,7 @@ Creating a notes app in which users can register and log in, and create, read, u
 
 3. Edit the inbound rules in the security group to allow users to access the application we will create.
 
-   <img src="images/3.png" height="700"/>
+   <img src="images/3.png" height="600"/>
 
 ---
 
@@ -39,12 +39,14 @@ Creating a notes app in which users can register and log in, and create, read, u
 
 ## Step 3: Connecting to the instance and installing the important dependencies
 
+1) Connect to the EC2 instance from your terminal:
+
 ```bash
 ssh -i your-key.pem ubuntu@<EC2_PUBLIC_IP>
 ```
 <img src="images/7.png" width="550" height="380"/>
 
-Run this entire series of commands one by one:
+2) Run this entire series of commands one by one to install dependencies:
 
 ```bash
 sudo apt update
@@ -92,7 +94,7 @@ pip install flask flask-login pymysql werkzeug
 mysql <endpoint-url> -u admin -p
 ```
 
-3. Run the following MySQL Queries 
+3. Run the following MySQL Queries (to create a database with tables, and inserting a user for logging into the application)
 
 ```bash
 CREATE DATABASE notes_app;
@@ -122,7 +124,7 @@ VALUES ('testuser', 'testpass');
 
 ## Step 4: Creating the application
 
-Make the code files as per the structure given below:
+Create code files as per the structure given below:
 
 <img src="images/9.png" height="50"/>
 
@@ -299,10 +301,6 @@ cd templates
 ```
 <img src="images/10.png" height="50"/>
 
-```bash
-nano login.html
-```
-
 login.html code: 
 ```
 <!DOCTYPE html>
@@ -336,10 +334,6 @@ login.html code:
 
 <img src="images/11.png" height="50"/>
 
-```bash
-nano register.html
-```
-
 register.html code: 
 ```bash
 <!DOCTYPE html>
@@ -372,10 +366,6 @@ register.html code:
 ```
 
 <img src="images/12.png" height="50"/>
-
-```bash
-nano notes.html
-```
 
 notes.html code: 
 ```bash
@@ -418,10 +408,6 @@ notes.html code:
 
 <img src="images/13.png" height="50"/>
 
-```bash
-nano edit_note.html
-```
-
 edit_note.html code:
 ```bash
 <!DOCTYPE html>
@@ -458,10 +444,6 @@ cd static
 mkdir css
 ```
 <img src="images/14.png" height="50"/>
-
-```bash
-nano style.css
-```
 
 style.css code: 
 
@@ -540,7 +522,8 @@ input[type="submit"]:hover {
 ## Step 5: Accessing the application: 
 
 1. Run the app
-``bash
+
+```bash
 python app.py
 ```
 
