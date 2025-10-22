@@ -6,7 +6,7 @@ Using terraform code to spin up an S3 bucket and EC2 instance, and terminate the
 ## Step 1: Configure a new user with necessary permissions
 
 1) Create an IAM user <br>
-<img src="images/1.png" width="450" height="300"/><br><br><br>
+<img src="images/1.png" width="450" height="300"/><br>
 <img src="images/2.png" width="550" height="360"/>
 
 2) Create access keys for the user:<br>
