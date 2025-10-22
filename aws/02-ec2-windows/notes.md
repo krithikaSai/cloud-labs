@@ -107,7 +107,7 @@ python app.py
 <img src="images/23.png" width="550" height="380"/><br><br><br>
 <img src="images/24.png" width="450"/><br><br><br>
 <img src="images/25.png" width="450"/><br><br><br>
-<img src="images/26.png" width="450"/><br><br><br>
+<img src="images/26.png" width="450"/><br>
 
 Open the application in your browser by running the URL below:
 
