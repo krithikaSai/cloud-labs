@@ -1,4 +1,4 @@
-# AWS Lab: Terraform infrastructure
+# AWS Lab: Terraform Infrastructure
 
 ### Objective
 Using terraform code to spin up an S3 bucket and EC2 instance, and terminate them after use.
@@ -6,16 +6,16 @@ Using terraform code to spin up an S3 bucket and EC2 instance, and terminate the
 ## Step 1: Create an IAM user 
 
 <img src="images/1.png" width="550" height="380"/><br><br><br>
-<img src="images/2.png" width="550" height="360"/>
+<img src="images/2.png" width="550" height="360"/><br>
 
 Create access keys for the user:
-<img src="images/3.png" width="550" height="350"/>
+<img src="images/3.png" width="550" height="350"/><br>
 
 Add the below permissions for the user: 
-<img src="images/4.png" width="550" height="360"/>
+<img src="images/4.png" width="550" height="360"/><br>
 
 Configure AWS credentials: 
-<img src="images/5.png" width="550"/>
+<img src="images/5.png" width="550"/><br>
 
 
 ## Step 2: Install Chocolatey on your device
@@ -73,8 +73,8 @@ Terraform uses the SSH public key file to create a key pair in AWS. This allows 
 ```bash 
 ssh-keygen -t rsa -b 4096
 ```
-<img src="images/6.png" width="550"/>
-<img src="images/7.png" width="550"/>
+<img src="images/6.png" width="550"/><br><br><br>
+<img src="images/7.png" width="550"/><br>
 
 ---
 
@@ -85,21 +85,21 @@ Run the following commands
 ```bash
 terraform init
 ```
-<img src="images/8.png" width="550"/>
+<img src="images/8.png" width="550"/><br>
 
 
 ```bash
 terraform plan
 ```
-<img src="images/9.png" width="550"/>
+<img src="images/9.png" width="550"/><br>
 
 
 ```bash 
 terraform apply
 ```
-<img src="images/10.png" width="550"/>
+<img src="images/10.png" width="550"/><br><br><br>
 
-<img src="images/11.png" width="550" height="380"/>
+<img src="images/11.png" width="550" height="380"/><br>
 
 ---
 
@@ -126,7 +126,7 @@ resource "aws_s3_object" "my_object" {
 ```bash 
 terraform apply
 ```
-<img src="images/12.png" width="550" height="380"/>
+<img src="images/12.png" width="550" height="380"/><br>
 
 ---
 
@@ -166,7 +166,7 @@ resource "aws_s3_object" "my_object" {
 terraform apply
 ```
 
-<img src="images/13.png" width="550"/>
+<img src="images/13.png" width="550"/><br>
 ---
 
 ## Step 8: Adding the VM resource
@@ -201,8 +201,8 @@ terraform plan
 ```bash
 terraform apply
 ```
-<img src="images/14.png" width="550"/>
-<img src="images/15.png" width="550"/>
+<img src="images/14.png" width="550"/><br><br><br>
+<img src="images/15.png" width="550"/><br>
 
 ---
 
