@@ -32,7 +32,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocola
 ```
 ---
 
-## Step 3: Open a new tab and install terraform: 
+## Step 3: Open a new tab and install terraform (using chocolatey): 
 
 ```bash 
 choco install terraform -y
@@ -70,8 +70,6 @@ resource "aws_s3_bucket" "my_bucket" {
 
 3) Create a key pair: 
 
-Terraform uses the SSH public key file to create a key pair in AWS. This allows secure login to the EC2 instance without a password.
-
 ```bash 
 ssh-keygen -t rsa -b 4096
 ```
@@ -99,7 +97,7 @@ terraform plan
 ```bash 
 terraform apply
 ```
-<img src="images/10.png" width="550"/><br><br><br>
+<img src="images/10.png" width="550"/><br>
 
 The bucket is created: <br>
 <img src="images/11.png" width="550" height="380"/><br>
@@ -130,8 +128,8 @@ resource "aws_s3_object" "my_object" {
 terraform apply
 ```
 
-The object is created:<br>
-<img src="images/12.png" width="550" height="380"/><br>
+The object is created:<br><br>
+<img src="images/12.png" width="500"/><br>
 
 ---
 
