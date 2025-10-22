@@ -3,20 +3,22 @@
 ### Objective
 Using terraform code to spin up an S3 bucket and EC2 instance, and terminate them after use.
 
-## Step 1: Create an IAM user 
+## Step 1: Configure a new user with necessary permissions
 
-<img src="images/1.png" width="550" height="380"/><br><br><br>
+1) Create an IAM user
+<img src="images/1.png" width="500" height="300"/><br><br><br>
 <img src="images/2.png" width="550" height="360"/><br>
 
-Create access keys for the user:
+2) Create access keys for the user:
 <img src="images/3.png" width="550" height="350"/><br>
 
-Add the below permissions for the user: 
+3) Add the below permissions for the user: 
 <img src="images/4.png" width="550" height="360"/><br>
 
-Configure AWS credentials: 
+4) Configure AWS credentials: 
 <img src="images/5.png" width="550"/><br>
 
+---
 
 ## Step 2: Install Chocolatey on your device
 
