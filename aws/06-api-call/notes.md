@@ -7,7 +7,7 @@ Creating a flask weather application in an Ubuntu EC2 instance which can return 
 
 1. Log in to the AWS Management Console and open the EC2 Dashboard.
   
-   <img src="images/1.png" width="520" height="350"/>
+   <img src="images/1.png" width="450" height="350"/>
 
 2. Click "Launch Instance" and configure as shown below:
 
