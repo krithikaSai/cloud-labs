@@ -9,7 +9,10 @@ Creating and testing an AWS Lambda function (which performs mathematical calcula
 
 1. Log in to the AWS Management Console and open the IAM Dashboard.
   
-   <img src="images/1.png" width="450" height="380"/><br><br><br>
+   <img src="images/1.png" width="450" height="380"/>
+
+2) Create a user and add the administrator access policy:
+
    <img src="images/2.png" width="550"/><br><br><br>
    <img src="images/3.png" width="550"/><br><br><br>
    <img src="images/4.png" width="550"/><br><br><br>
