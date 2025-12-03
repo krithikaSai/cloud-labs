@@ -10,11 +10,11 @@ To design and deploy a fully serverless web application that accepts a user-prov
 
 2. Click on "Create Function and configure as shown below"
    
-   <img src="images/2.png" width="450"/><br>
-   <img src="images/3.png" width="450"/><br>
-   <img src="images/4.png" width="450"/><br>
-   <img src="images/5.png" width="450"/><br>
-   <img src="images/6.png" width="450"/><br>
+   <img src="images/2.png" width="450"/><br><br><br>
+   <img src="images/3.png" width="450"/><br><br><br>
+   <img src="images/4.png" width="450"/><br><br><br>
+   <img src="images/5.png" width="450"/><br><br><br>
+   <img src="images/6.png" width="450"/><br><br><br>
    <img src="images/7.png" width="450"/><br>
 
 ---
@@ -194,7 +194,7 @@ exports.handler = async (event) => {
   }
 };
 ```
-<img src="images/8.png" width="450"/><br>
+<img src="images/8.png" width="450"/><br><br><br>
 <img src="images/9.png" width="450"/>
 
 ---
@@ -217,14 +217,14 @@ Go to the "Runtime Settings" section and make sure that the handler is set to "i
 
 2. Build a HTTP API.
 
-<img src="images/13.png" width="450"/><br>
+<img src="images/13.png" width="450"/><br><br><br>
 <img src="images/14.png" width="450"/>
 
 3. Configure as per the steps shown below: 
-<img src="images/15.png" width="450"/><br>
-<img src="images/16.png" width="450"/><br>
-<img src="images/17.png" width="450"/><br>
-<img src="images/18.png" width="450"/><br>
+<img src="images/15.png" width="450"/><br><br><br>
+<img src="images/16.png" width="450"/><br><br><br>
+<img src="images/17.png" width="450"/><br><br><br>
+<img src="images/18.png" width="450"/><br><br><br>
 <img src="images/19.png" width="450"/>
 
 Leave the other permissions at default.
@@ -639,11 +639,11 @@ function renderCombos(data) {
 
 ## Step 6: Enable CORS
 
-<img src="images/21.png" height="450"/> <br>
+<img src="images/21.png" height="450"/><br><br><br>
 
 Configure as shown below and save it. 
 
-<img src="images/22.png" width="450"/><br>
+<img src="images/22.png" width="450"/><br><br><br>
 <img src="images/23.png" width="450"/> 
 
 ---
@@ -652,27 +652,27 @@ Configure as shown below and save it.
 
 1.	Create an S3 bucket
 
-<img src="images/24.png" width="450"/><br>
-<img src="images/25.png" width="450"/><br>
-<img src="images/26.png" width="450"/><br>
-<img src="images/27.png" width="450"/><br>
-<img src="images/28.png" width="450"/><br>
+<img src="images/24.png" width="450"/><br><br><br>
+<img src="images/25.png" width="450"/><br><br><br>
+<img src="images/26.png" width="450"/><br><br><br>
+<img src="images/27.png" width="450"/><br><br><br>
+<img src="images/28.png" width="450"/><br><br><br>
 <img src="images/29.png" width="450"/>
 
 2. Enable Static Website hosting
 
-<img src="images/30.png" width="450"/><br>
-<img src="images/31.png" width="450"/><br>
-<img src="images/32.png" width="450"/><br>
+<img src="images/30.png" width="450"/><br><br><br>
+<img src="images/31.png" width="450"/><br><br><br>
+<img src="images/32.png" width="450"/><br><br><br>
 <img src="images/33.png" width="450"/>
 
 3. Upload the frontend files into the object tab: 
 
-<img src="images/34.png" width="450"/><br>
+<img src="images/34.png" width="450"/><br><br><br>
 
 4. Go to the permissions tab and add the bucket policy given below: 
 
-<img src="images/35.png" width="450"/><br>
+<img src="images/35.png" width="450"/><br><br><br>
 <img src="images/36.png" width="450"/>
 
 Bucket policy (replace with your own bucket name in the last line:)
