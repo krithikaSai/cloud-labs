@@ -1,0 +1,49 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 20px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#status.ok { color: green; }
+#status.err { color: red; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background: #f5f5f5;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.cell.highlight {
+  background: #ffe9b5;
+  border-color: #ffb64c;
+}
+
+.sum-section {
+  display: flex;
+  gap: 40px;
+}
+
+#combos .item {
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}

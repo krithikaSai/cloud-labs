@@ -1,0 +1,50 @@
+
+
+mkdir google-oauth
+
+cd google-oauth
+
+npm init -y
+
+npm install express node-fetch@2 querystring dotenv
+
+npm install --save-dev nodemon
+
+
+index.js 
+
+import express from "express";
+import fetch from "node-fetch";
+import querystring from "querystring";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const app = express();
+
+const CLIENT_ID = process.env.CLIENT_ID;
+const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const REDIRECT_URI = "http://localhost:8080/oauth/callback";
+const AUTH_URL = "https://accounts.google.com/o/oauth2/v2/auth";
+const TOKEN_URL = "https://oauth2.googleapis.com/token";
+const SCOPE = "https://www.googleapis.com/auth/userinfo.profile";
+
+app.get("/", (req, res) => {
+  const params = querystring.stringify({
+    client_id: CLIENT_ID,
+    redirect_uri: REDIRECT_URI,
+    response_type: "code",
+    scope: SCOPE,
+    access_type: "offline",
+    prompt: "consent",
+  });
+  res.send(`<a href="${AUTH_URL}?${params}">Login with Google</a>`);
+});
+
+// callback and other routes we'll add later
+
+app.listen(8080, () => {
+  console.log("Server running on http://localhost:8080");
+});
+
+

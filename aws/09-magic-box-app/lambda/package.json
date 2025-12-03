@@ -1,0 +1,7 @@
+{
+  "name": "magic-box-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Magic box calculation Lambda",
+  "license": "MIT"
+}
